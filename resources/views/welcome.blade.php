@@ -81,6 +81,8 @@
                 <div class="title m-b-md">
                     Alvin  Wardhana Utama oo
                 </div>
+                <h2>{{$music->genre}}</h2>
+                <p>{{$music->singer}}</p>
 
                 <div class="links">
                     <a href="https://laravel.com/docs">Documentation</a>
