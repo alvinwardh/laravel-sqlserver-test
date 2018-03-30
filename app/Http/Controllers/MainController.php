@@ -7,7 +7,7 @@ class MainController extends Controller
 {
     function index()
     {
-      $musics = DB::table('dbo.music')->->where('id', "1")->get();
+      $musics = DB::table('dbo.music')->where('id', "1")->get();
       return view('welcome')->withMusic($musics);
     }
   }
